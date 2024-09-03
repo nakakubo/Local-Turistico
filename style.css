@@ -1,0 +1,135 @@
+/* CSS Document */
+/*Initial Setting*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", system-ui;
+}
+
+/* Font Style */
+
+h1, h2, h3 {
+	color: #1B1B1B;
+}
+h1 {
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+h3 {
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+
+p, .subtitle, .strong-p {
+	color: #333333;
+	font-size: 1rem;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover{
+	color:#696969;
+}
+ul{
+	padding-left: 30px;
+}
+.strong-p{
+	font-weight: bold;
+}
+.headline {
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #E1624F;
+}
+.subtitle {
+	font-size: 1rem;
+	font-style: italic;
+	text-align: center;
+}
+.center {
+	text-align: center;
+}
+
+/* Color Accent */
+.blue {
+	color: #0C51A7;
+}
+.orange {
+	color: #E95E10;
+}
+.red {
+	color: #E5245E;
+}
+.purple {
+	color: #591B98;
+}
+
+/* Containers */
+body{
+	background-color: #29292E;
+}
+
+#page {
+	box-sizing: border-box;
+	padding: 80px;
+	background-color: #F5F4F0;
+	max-width: 1280px;
+	margin: 80px auto;
+	border-radius: 28px;
+}
+
+footer {
+	text-align: center;
+}
+footer img {
+	vertical-align:middle
+}
+
+/*Feature Article*/
+.feature-article h1 {
+	padding: 5px 0px 40px;
+}
+.feature-article .subtitle {
+	padding: 20px 30px 0px
+}
+/* Article Image*/
+.feature-article img {
+	width: 100%;
+	border-radius: 28px;
+}
+
+/*Article*/
+.article {
+	padding: 30px 0;
+}
+.article h2 {
+	padding: 5px 0px 15px;
+}
+.article h3 {
+	padding: 5px 0px;
+}
+.article .strong-p {
+	padding: 20px 0px 0px;
+}
+.article img {
+	width: 100%;
+	border-radius: 28px;
+	object-fit: cover;
+	height: 350px;
+	margin: 50px 0 20px;
+}
+
+/*Divider*/
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
